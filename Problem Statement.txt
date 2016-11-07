@@ -1,0 +1,18 @@
+At the beginning a number N will be given. N number of paragraphs will follow. For each paragraph you have to find the following:
+i) How many articles (grammatical meaning implied) of each type are there in the paragraph. That means how many 'a', how many 'an' and how many 'the'
+ii) How many date information is there in the paragraph. (A date for this task is defined as one which has the information of all the components- date, month and year). Be aware that a date can be expressed in different ways: 12/07/2014, 06/31/2014, 6-31-2014, 15 July, 2014, 15 Jul 2014, 15th July 2014, 15th of July 2014, December 15, 2015 etc....the more variety you can handle the more accurate your result will be
+
+Example input:
+
+3
+The French Revolution was a period of far-reaching social and political upheaval in France that lasted from 1789 until 1799, and was partially carried forward by Napoleon during the later expansion of the French Empire.
+Dehradun is the capital city of the state of Uttarakhand in the northern part of India. Located in the Garhwal region, it lies 236 kilometres (147 miles) north of India's capital New Delhi.
+The Indian general election of 2014 was held to constitute the 16th Lok Sabha, electing members of parliament for all 543 parliamentary constituencies of India. Running in nine phases from 7 April 2014 to 12 May 2014, it was the longest election in the country's history. According to the Election Commission of India, 814.5 million people were eligible to vote, with an increase of 100 million voters since the last general election in 2009, making it the largest-ever election in the world.
+
+The output will be:
+
+1,0,3,0
+0,0,4,0
+0,1,8,2
+
+Explanation: The first paragraph (on French revolution) has 1 occurrence on ‘a’, 0 occurrence of ‘an’, ‘3’ occurrences of ‘the’ and 0 occurrences of ‘date information.’ Same for other two paragraphs.
